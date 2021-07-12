@@ -5,7 +5,8 @@
 *   Maven 3.5.X
 *   Run application using command line from the project directory - mvn spring-boot:run
     or docker run -p 127.0.0.1:8080:8080/tcp shijinraj/basket
-*   Shopping-app Swagger URL- http://localhost:8080/swagger-ui/index.html
+*   Shopping-app Swagger URL- http://localhost:8080
+/swagger-ui/index.html
 
 ## 1. create a Basket:
 *  API - HTTP : PUT - /api/baskets
@@ -15,6 +16,7 @@
 *  Throws IllegalArgumentException for invalid productId or customerId in Service Layer.
 *  This service creates a basket with Item for a user.
 
+
 ## 2. Update a Basket:
 *  API - HTTP : PUT - /api/baskets/{id}
 *  Accepting customerId in the Request Header.
@@ -23,7 +25,7 @@
 *  Null Validation check for customerId, productId and quantity in Service Layer.
 *  Throws IllegalArgumentException for invalid productId or customerId in Service Layer.
 *  This service updates a basket item Or add new item for a user.
-
+*. No products available now. Basket services can only be tested only after adding products.
 
 ## 2. Delete a Basket:
 *  API - HTTP : PUT - /api/baskets/{id}
