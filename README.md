@@ -1,4 +1,4 @@
-# wayfair - MVP
+# wayfair - MVP (2-3 hours of work)
 ## Setup
 *   Docker
 *   JDK 8 or higher version
